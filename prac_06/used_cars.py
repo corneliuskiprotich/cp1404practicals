@@ -1,5 +1,5 @@
 """
-CP1404/CP5632 Practical
+CP1404Practical
 """
 
 from prac_06.car import Car

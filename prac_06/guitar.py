@@ -25,19 +25,10 @@ class Guitar:
         age = self.get_age(current_year)
         return age >= 50
 
-
-# Testing the Guitar class
 if __name__ == "__main__":
-    # Creating a Guitar object
     my_guitar = Guitar("Gibson L-5 CES", 1922, 16035.40)
-
-    # Current year
     current_year = 2024
-
-    # Printing the guitar's information
     print(my_guitar)
-
-    # Getting the age of the guitar
     print(f"The guitar is {my_guitar.get_age(current_year)} years old.")
 
     # Checking if the guitar is vintage

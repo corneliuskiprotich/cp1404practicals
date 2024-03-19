@@ -16,14 +16,7 @@ class ProgrammingLanguage:
     def is_dynamic(self):
         """Check if the language is dynamically typed."""
         return self.typing.lower() == 'dynamic'
-
-
-# Record the current time
 start_time = datetime.now()
-
-# Estimate: 10 minutes
-
-# Record the actual time
 end_time = datetime.now()
 execution_time = end_time - start_time
 print("Actual time:", execution_time)

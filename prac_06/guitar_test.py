@@ -4,7 +4,7 @@ def get_guitar_details():
     """Prompt user to input guitar details."""
     name = input("Name: ")
     if not name:
-        return None  # Return None if name is blank
+        return None
 
     year = int(input("Year: "))
     cost = float(input("Cost: $"))
